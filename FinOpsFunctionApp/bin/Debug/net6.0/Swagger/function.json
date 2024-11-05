@@ -1,0 +1,22 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.5.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "route": "swagger/json",
+      "methods": [
+        "get"
+      ],
+      "authLevel": "anonymous",
+      "name": "req"
+    },
+    {
+      "type": "swashBuckleClient",
+      "name": "swasBuckleClient"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/FinOpsFunctionApp.dll",
+  "entryPoint": "AzFuncWithSwagger.SwaggerFunctions.Swagger"
+}

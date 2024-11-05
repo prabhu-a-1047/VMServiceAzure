@@ -1,0 +1,5 @@
+{
+  "extensions":[
+    { "name": "Swashbuckle", "typeName":"AzFuncWithSwagger.SwashbuckleStartup, FinOpsFunctionApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"}
+  ]
+}
